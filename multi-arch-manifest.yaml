@@ -1,0 +1,7 @@
+image: sumitraina/pi0-graphql-info-introspection:latest
+manifests:
+  - image: sumitraina/pi0-graphql-info-introspection:latest-arm6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Build options
+docker build --platform linux/arm/v6 -t sumitraina/pi0-graphql-info-introspection .
